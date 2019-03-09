@@ -26,7 +26,7 @@ class Card:
         self.rank: Rank = rank
 
     def can_be_played_on(self, other: 'Card') -> bool:
-        # TODO implement method
+        # TODO implement function
         pass
 
     def __eq__(self, other):
@@ -37,5 +37,5 @@ class Card:
 
 
 def playable_cards(card: Card, hand: List[Card]) -> List[Card]:
-    # TODO implement method
+    # TODO implement function
     pass
